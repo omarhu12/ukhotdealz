@@ -1,0 +1,440 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  display: grid;
+  place-items: center;
+  font-family: Poppins;
+  place-content: center;
+}
+
+section#heroSection {
+  height: 100vh;
+}
+
+section#heroSection div.heroContent {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.7rem;
+  justify-content: center;
+  align-items: center;
+}
+
+section#heroSection div.heroContent button {
+  width: 13.125rem;
+  height: 3.9375rem;
+  border-radius: 2.5rem;
+  background: #7b2cbf;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  border: none;
+  cursor: pointer;
+}
+
+section#heroSection div.heroContent p {
+  color: #c5bfbf;
+  margin-top: -2rem;
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+section#heroSection h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115.5%; /* 3.465rem */
+  text-transform: capitalize;
+}
+
+section#heroSection h1 span#money {
+  background: linear-gradient(88deg, #7b2cbf 0%, #c77dff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115.5%;
+  text-transform: capitalize;
+}
+
+section#heroSection h1 span#time {
+  background: linear-gradient(206deg, #7b2cbf 0%, #c77dff 34.2%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115.5%;
+  text-transform: capitalize;
+}
+
+section#heroSection h1 span#deal {
+  background: linear-gradient(
+    270deg,
+    #7b2cbf 0%,
+    #c77dff 51.86%,
+    #7b2cbf 74.32%,
+    #c77dff 99.88%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115.5%;
+  text-transform: capitalize;
+}
+
+section#heroSection input {
+  width: 25.3125rem;
+  height: 3.9375rem;
+  border-radius: 2.5rem;
+  background: #272728;
+  border: none; 
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+section#heroSection input::placeholder {
+  padding: 2rem;
+}
+
+
+@media screen and (max-width: 1000px){
+     section#heroSection h1,
+     section#heroSection h1 span{
+        font-size: 2rem;
+     }
+     section#heroSection form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+     }
+}
+
+/* styling the proof section  */
+
+section#partenrNetwork {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25rem;
+}
+
+section#partenrNetwork h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117.687%; /* 2.64794rem */
+  text-transform: capitalize;
+}
+
+section#partenrNetwork h1 span#highest {
+  background: linear-gradient(180deg, #7b2cbf 0%, #c77dff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117.687%;
+  text-transform: capitalize;
+}
+
+section#partenrNetwork h1 span#from {
+  background: linear-gradient(180deg, #c77dff 0%, #7b2cbf 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117.687%;
+  text-transform: capitalize;
+}
+
+section#partenrNetwork h1 span#network {
+  background: linear-gradient(263deg, #c77dff 0%, #7b2cbf 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117.687%;
+  text-transform: capitalize;
+}
+
+section#partenrNetwork div.partenerNetworkLogos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+@media screen and (max-width: 1300px) {
+  section#partenrNetwork {
+    gap: 5rem;
+  }
+
+  section#partenrNetwork h1 {
+    font-size: 2rem;
+  }
+
+  section#partenrNetwork div.partenerNetworkLogos img {
+    width: 4.33581rem;
+    height: 4.33613rem;
+  }
+}
+
+/* style the offers */
+
+section#offers {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+section#offers h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115.5%; /* 3.465rem */
+  text-transform: capitalize;
+}
+
+section#offers h1 span {
+  background: linear-gradient(88deg, #7b2cbf 0%, #c77dff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115.5%;
+  text-transform: capitalize;
+}
+
+section#offers div.offersGrid {
+  width: 80%;
+  margin: auto;
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+section#offers div.offersGrid a {
+  border: 2px solid white;
+  margin: 2rem;
+  padding: 3rem;
+  text-decoration: none;
+  color: white;
+}
+
+section#offers div.three span {
+  color: #b560ff;
+}
+
+section#offers div.vodafone span {
+  color: #f00;
+}
+
+@media screen and (max-width: 1000px) {
+  section#offers div.offersGrid {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+  }
+  section#offers h1,
+  section#offers h1 span {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 680px) {
+  section#offers div.offersGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* last section style */
+
+section#deals {
+  display: flex;
+  flex-direction: column;
+}
+
+section#deals h1 {
+  margin-top: 7rem;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115.5%; /* 3.465rem */
+  text-transform: capitalize;
+}
+
+section#deals h1 span {
+  background: linear-gradient(88deg, #7b2cbf 0%, #c77dff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115.5%;
+  text-transform: capitalize;
+}
+
+section#deals div.dealsWrrapers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  margin: auto;
+  margin-top: 8rem;
+}
+
+section#deals div.dealsWrrapers div.dealsCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 3.125rem;
+  background: #1f1c22;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+section#deals div.dealsWrrapers div.dealsCard div.networkInfos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+section#deals div.dealsWrrapers div.dealsCard h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 153.5%; /* 1.91875rem */
+  text-transform: capitalize;
+}
+
+section#deals div.dealsWrrapers div.dealsCard p {
+  color: #a1a1a1;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 153.5%; /* 1.34313rem */
+  text-transform: capitalize;
+}
+
+section#deals div.dealsWrrapers div.dealsCard div.networkInfos img {
+  width: 2.125rem;
+  height: 3.0625rem;
+}
+
+section#deals div.dealsWrrapers div.dealsCard a {
+  width: 12.1875rem;
+  height: 3.25rem;
+  text-decoration: none;
+  color: black;
+  border-radius: 1.875rem;
+  background: #c77dff;
+  padding: 1rem;
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 153.5%; /* 1.535rem */
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 1100px) {
+  section#deals div.dealsWrrapers {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 800px) {
+  section#deals div.dealsWrrapers {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  section#deals h1,
+  section#deals h1 span {
+    font-size: 2rem;
+  }
+}
+
+footer {
+  display: flex;
+  padding: 5.8125rem 0rem 6.875rem 0rem;
+  justify-content: center;
+  align-items: center;
+}
+
+footer div.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer div.footer p {
+  color: #999494;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115.5%; /* 1.44375rem */
+  text-transform: capitalize;
+}
